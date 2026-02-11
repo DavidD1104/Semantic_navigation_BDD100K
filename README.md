@@ -20,6 +20,13 @@ The objective is not to replace object detection with a VLM, but to explore how 
 
 ---
 
+## Technologies
+- OpenCV
+- YOLO
+- Ollama (Llava:7b model)
+
+---
+
 
 ## System Architecture
 ### Pipeline:
@@ -111,21 +118,8 @@ This allows structured perception to dominate safety-critical decisions, while t
 The system logs structured outputs in JSON format:
 
 
-
 ---
 
-## Technologies
-- OpenCV
-- YOLO
-- Ollama (Llava:7b model) 
-
----
-
-
-## Results
-
-
----
 
 
 ## Dataset
