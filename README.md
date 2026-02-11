@@ -185,6 +185,11 @@ The system logs structured outputs in JSON format:
 
 ---
 
+## Results
+- YOLO provides more reliable, low-latency structured detections.
+- LLaVA adds contextual interpretation but introduces significantly higher latency.
+
+---
 
 
 ## Dataset
