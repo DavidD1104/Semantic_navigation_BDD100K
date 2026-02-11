@@ -192,7 +192,7 @@ For the example seen before:
 | YOLOv8n | ~80 ms |
 | LLaVA (7B) | ~3.1 s |
 
-The VLM is ~40x slower than YOLO inference. This value depends of the image selected
+The VLM is ~40x slower than YOLO inference. This value depends on the image selected
 
 
 ## Dataset
