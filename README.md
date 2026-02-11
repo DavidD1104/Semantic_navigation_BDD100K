@@ -116,7 +116,72 @@ This allows structured perception to dominate safety-critical decisions, while t
 </p>
 
 The system logs structured outputs in JSON format:
+<p align="center">
+  Output for the second image (results/output2.jpg)
+</p>
 
+<p align="center">
+  
+    "detections": [
+        {
+            "class": "bus",
+            "confidence": 0.874072253704071,
+            "bbox": [
+                816.0758666992188,
+                76.48983764648438,
+                1279.720458984375,
+                482.8736877441406
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.8737229704856873,
+            "bbox": [
+                338.97894287109375,
+                272.3184814453125,
+                437.07781982421875,
+                338.7615966796875
+            ]
+        },
+        {
+            "class": "person",
+            "confidence": 0.4818313717842102,
+            "bbox": [
+                236.75973510742188,
+                269.21978759765625,
+                262.8940734863281,
+                332.93072509765625
+            ]
+        },
+
+                ...........
+               
+        {
+            "class": "car",
+            "confidence": 0.32376840710639954,
+            "bbox": [
+                740.197265625,
+                273.18292236328125,
+                799.3511962890625,
+                339.61126708984375
+            ]
+        },
+        {
+            "class": "bus",
+            "confidence": 0.31736987829208374,
+            "bbox": [
+                658.5709838867188,
+                234.48065185546875,
+                709.9684448242188,
+                284.00299072265625
+            ]
+        }
+    ],
+    "vlm_response": " Decision: SAFE\nReason: The image appears to show a clear road with no pedestrians directly ahead or obstacles blocking the path. There is a vehicle that seems to be moving forward, indicating traffic flow. It's safe for your robot to move forward under these conditions. ",
+    "rule_decision": "CAUTION",
+    "yolo_time": 0.08684563636779785,
+    "vlm_time": 3.1153104305267334
+</p>
 
 ---
 
