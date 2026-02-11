@@ -1,0 +1,5 @@
+ultralytics
+opencv-python
+requests
+pandas
+tqdm
