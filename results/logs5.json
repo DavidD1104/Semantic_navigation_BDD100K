@@ -1,0 +1,108 @@
+{
+    "detections": [
+        {
+            "class": "person",
+            "confidence": 0.9013729095458984,
+            "bbox": [
+                797.5947265625,
+                306.8353271484375,
+                954.2216796875,
+                584.0737915039062
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.7018410563468933,
+            "bbox": [
+                893.0087890625,
+                358.1060791015625,
+                1051.472412109375,
+                448.45391845703125
+            ]
+        },
+        {
+            "class": "person",
+            "confidence": 0.7010204792022705,
+            "bbox": [
+                398.74749755859375,
+                280.6422119140625,
+                469.52996826171875,
+                517.3946533203125
+            ]
+        },
+        {
+            "class": "person",
+            "confidence": 0.6361608505249023,
+            "bbox": [
+                228.27854919433594,
+                305.8994140625,
+                305.4825439453125,
+                522.900634765625
+            ]
+        },
+        {
+            "class": "person",
+            "confidence": 0.5455896854400635,
+            "bbox": [
+                324.3948669433594,
+                312.7752685546875,
+                447.3070983886719,
+                550.7547607421875
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.49962809681892395,
+            "bbox": [
+                741.276611328125,
+                392.01763916015625,
+                835.701416015625,
+                446.89398193359375
+            ]
+        },
+        {
+            "class": "bus",
+            "confidence": 0.46388566493988037,
+            "bbox": [
+                0.5604782104492188,
+                261.20758056640625,
+                106.02923583984375,
+                446.31988525390625
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.39888790249824524,
+            "bbox": [
+                643.487060546875,
+                378.4617614746094,
+                695.796875,
+                422.6336975097656
+            ]
+        },
+        {
+            "class": "person",
+            "confidence": 0.3765481412410736,
+            "bbox": [
+                360.58978271484375,
+                317.620361328125,
+                442.08697509765625,
+                548.7498779296875
+            ]
+        },
+        {
+            "class": "truck",
+            "confidence": 0.26028355956077576,
+            "bbox": [
+                0.2535247802734375,
+                260.6104736328125,
+                109.07632446289062,
+                448.1544189453125
+            ]
+        }
+    ],
+    "vlm_response": " 1. Caution\n    Reason: There are pedestrians ahead in the crosswalk who have the right of way, so it is advisable to wait for them to pass before proceeding.\n\n2. Yes\n    Reason: There are several people walking directly ahead, indicating a level of activity in that direction which may require caution while moving forward.\n\n3. No\n    Reason: The image shows an intersection with pedestrians crossing the street and traffic lights visible, suggesting that there might be vehicular traffic that could obstruct the path ahead. It would be important to exercise caution before proceeding through this area. ",
+    "rule_decision": "STOP",
+    "yolo_time": 0.08357095718383789,
+    "vlm_time": 6.882258892059326
+}

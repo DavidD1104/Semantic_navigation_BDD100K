@@ -1,0 +1,68 @@
+{
+    "detections": [
+        {
+            "class": "car",
+            "confidence": 0.9057601690292358,
+            "bbox": [
+                851.4078369140625,
+                378.25347900390625,
+                1252.2554931640625,
+                590.0331420898438
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.9018552899360657,
+            "bbox": [
+                56.580291748046875,
+                404.53729248046875,
+                402.1950378417969,
+                569.8707275390625
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.8794966340065002,
+            "bbox": [
+                381.71240234375,
+                384.8511962890625,
+                807.489501953125,
+                647.0142822265625
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.40236616134643555,
+            "bbox": [
+                394.15771484375,
+                404.1260681152344,
+                474.9039306640625,
+                471.1289367675781
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.40122586488723755,
+            "bbox": [
+                787.8320922851562,
+                388.769775390625,
+                904.9332885742188,
+                494.8463134765625
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.2610246539115906,
+            "bbox": [
+                924.8515625,
+                622.925048828125,
+                1279.544189453125,
+                717.566162109375
+            ]
+        }
+    ],
+    "vlm_response": " Decision: CAUTION\n\nReason: The image shows a busy nighttime intersection with multiple cars stopped, indicating that there is heavy traffic. Additionally, the presence of pedestrians and streetlights suggests that this is an urban environment where visibility may be reduced due to lights and shadows. It is not safe to move forward without caution, as there are obstacles (the other vehicles) and potentially people crossing the road that could lead to accidents if not navigated carefully. ",
+    "rule_decision": "CAUTION",
+    "yolo_time": 0.09012389183044434,
+    "vlm_time": 5.421083688735962
+}

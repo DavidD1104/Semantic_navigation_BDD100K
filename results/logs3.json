@@ -1,0 +1,58 @@
+{
+    "detections": [
+        {
+            "class": "truck",
+            "confidence": 0.6321859359741211,
+            "bbox": [
+                263.1114807128906,
+                232.4888916015625,
+                403.6602478027344,
+                341.29705810546875
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.515093982219696,
+            "bbox": [
+                394.792724609375,
+                239.955322265625,
+                454.9417724609375,
+                285.013427734375
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.3592013716697693,
+            "bbox": [
+                144.406494140625,
+                259.3905029296875,
+                209.708251953125,
+                313.1629638671875
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.34482747316360474,
+            "bbox": [
+                0.3925590515136719,
+                280.70770263671875,
+                37.78587341308594,
+                299.11029052734375
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.28363585472106934,
+            "bbox": [
+                44.53144454956055,
+                275.3106689453125,
+                89.58842468261719,
+                292.085693359375
+            ]
+        }
+    ],
+    "vlm_response": " Based on the image provided, here is my analysis:\n\n1. Is it safe to move forward?\n   Decision: SAFE\n   Reason: There are no obvious obstacles or pedestrians directly ahead of the vehicle that would require immediate stopping or avoidance. The road appears clear for a short distance, and there's ample space to maneuver without imminent danger.\n\n2. Are there pedestrians directly ahead?\n   Decision: NO\n   Reason: There are no visible pedestrians in the path of the vehicle in the image, suggesting it is safe to move forward.\n\n3. Are there obstacles or cars blocking the path?\n   Decision: STOP\n   Reason: Although the road ahead looks clear for a short distance, it's important to note that the image only shows a limited view of the immediate road. It's not possible to see further down the highway, so caution should be exercised before proceeding. The vehicle in the image seems to have stopped momentarily, which could indicate the presence of an obstacle or traffic ahead that isn't visible from this angle. Therefore, it would be wise to exercise caution and prepare to stop if necessary. ",
+    "rule_decision": "SAFE",
+    "yolo_time": 0.0730278491973877,
+    "vlm_time": 13.876742601394653
+}
